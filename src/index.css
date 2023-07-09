@@ -1,13 +1,79 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cr{
+  height: auto;
+  color: rgb(7, 219, 7);
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.active{
+  /* background-color: rgb(68, 114, 114); */
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(7, 219, 7);
+  font-size: 16PX;
+  text-decoration: underline;
+}
+.links{
+  /* background-color: rgb(108, 97, 97); */
+  color: rgb(7, 219, 7);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.normal{
+  text-decoration: none;
+  padding: 10px;
+  color:rgb(96, 93, 93);
+  margin-right: 10px;
+  font-size: 16px;
+}
+.normal:hover{
+  color: rgb(7, 219, 7);
+}
+.bimage{
+  width: 80%;
+  height: 200px;
+}
+.title{
+  color: black;
+  font-size: 18px;
+  padding: 0 15px;
+ text-decoration: none;
+}
+.tag{
+  color: grey;
+  font-size: 15px;
+  text-align: start;
+  padding: 0 15px;
+}
+button{
+  margin-left: 15PX;
+  margin-bottom: 15PX;
+  border: NONE;
+  color: rgb(100, 230, 100);
+  font-weight: 600;
+  font-size: 13px;
+  background-color: white;
+  cursor: pointer;
+  
+}
+.copy{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(66, 204, 66);
+  font-weight: 700;
+  margin-top: 150px;
+  background-color: white;
+ 
+  >.sd{
+    font-size: 20px;
+    color: rgb(169, 166, 166);
+    font-weight: 500;
+  }
 }
