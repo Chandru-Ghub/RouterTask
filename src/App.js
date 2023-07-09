@@ -21,7 +21,7 @@ function App() {
 
     </div>
     <div className='top'>
-     <img className='bimage' src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header.png" alt="" />
+     <img className='bimage' src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header.png" alt="frontImage" />
     <div className="links">
        
   <NavLink
