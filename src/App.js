@@ -17,7 +17,7 @@ function App() {
   return (
    <div className='App'>
     <div className="navbar">
-      <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png" alt="" />
+      <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png" alt="logo" />
 
     </div>
     <div className='top'>
