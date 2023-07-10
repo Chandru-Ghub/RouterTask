@@ -33,6 +33,7 @@ const Carrer = () => {
           {
             id : '5',
             image:'https://www.thinknexttraining.com/images/Full-Stack-Development-Course-in-Chandigargh-mob-min.jpg',
+            title:'Is coding required for cybersecurity? If yes, how crucial is coding for cybersecurity?',
             tag:'As Engineering graduates, we are all extremely eager to land a job at TCS, one'
           },
           {
