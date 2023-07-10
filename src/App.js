@@ -9,7 +9,8 @@ import { NavLink } from "react-router-dom";
 // import Footer from './Footer';
 // import { useState } from 'react';
 import Software from './Software';
-
+import blog from './Guvi-blog-logo.webp'
+import blogHeader from './blog-header.png'
 function App() {
 
 
@@ -17,11 +18,11 @@ function App() {
   return (
    <div className='App'>
     <div className="navbar">
-      <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png" alt="logo" />
+      <img src={blog} alt="logo" />
 
     </div>
     <div className='top'>
-     <img className='bimage' src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header.png" alt="frontImage" />
+     <img className='bimage' src={blogHeader} alt="frontImage" />
     <div className="links">
        
   <NavLink

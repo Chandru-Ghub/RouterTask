@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { NavLink } from "react-router-dom";
 import Software from './Software';
 import {Routes,Route} from 'react-router-dom';
+
 const All = () => {
     const [card,setCard]=useState(
         [
