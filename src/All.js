@@ -44,7 +44,7 @@ const All = () => {
           },
           {
             id : '6',
-            image:{img1},
+            image:'https://www.guvi.com/blog/wp-content/uploads/2022/06/1.-Amazon-fsd-salary-2048x1072.png',
             title:'Amazon Full Stack Developer Salaries In India',
             tag:'Full Stack Developer salaries at Amazon range from ₹ 4.5 Lakhs to ₹ 46 Lakhs'
           },
